@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Web", "Restaurant.Web\Restaurant.Web.csproj", "{08592669-42B5-4D1D-AF6A-C37361D0641F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.Web", "Restaurant.Web\Restaurant.Web.csproj", "{08592669-42B5-4D1D-AF6A-C37361D0641F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{043AEEC6-88A6-4120-BBB6-BE109C7959B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{3CB9ECC4-FEFF-4B64-8D2B-421C64788826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.ProductAPI", "Restaurant.ProductAPI\Restaurant.ProductAPI.csproj", "{965D69A3-9280-4E46-A383-5873685106C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant.ProductAPI", "Restaurant.ProductAPI\Restaurant.ProductAPI.csproj", "{965D69A3-9280-4E46-A383-5873685106C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Identity", "Restaurant.Identity\Restaurant.Identity.csproj", "{80B402A2-42F1-4EBC-B292-411F18DF70DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{965D69A3-9280-4E46-A383-5873685106C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{965D69A3-9280-4E46-A383-5873685106C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{965D69A3-9280-4E46-A383-5873685106C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B402A2-42F1-4EBC-B292-411F18DF70DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B402A2-42F1-4EBC-B292-411F18DF70DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B402A2-42F1-4EBC-B292-411F18DF70DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B402A2-42F1-4EBC-B292-411F18DF70DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{08592669-42B5-4D1D-AF6A-C37361D0641F} = {3CB9ECC4-FEFF-4B64-8D2B-421C64788826}
 		{965D69A3-9280-4E46-A383-5873685106C2} = {043AEEC6-88A6-4120-BBB6-BE109C7959B9}
+		{80B402A2-42F1-4EBC-B292-411F18DF70DD} = {043AEEC6-88A6-4120-BBB6-BE109C7959B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95CBAB26-ADF8-4D5C-A577-ACE306C213B5}
